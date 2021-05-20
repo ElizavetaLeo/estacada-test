@@ -1,0 +1,751 @@
+body{
+font-family: 'Russo One', sans-serif;
+} 
+*{
+  padding: 0;
+  margin:0;
+} 
+/*menu*/
+li{
+  list-style: none;
+  display: flex;
+}
+a{
+  text-decoration: none;
+}
+header{
+  background: #000000;
+  padding: 2px 0;
+}
+.header-container{
+  width: 10 0%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.header-container a{
+color: #FFFFFF;
+font-size: 16px;
+margin-right: 63px;
+padding: 15px 6px;
+}
+.header-container a:hover{
+  background: #00FF00;
+}
+.logo img{
+  padding-left: 50px;
+}
+#menu-checkbox{
+  display: none;
+}
+ul{
+  display: flex;
+}
+nav{
+margin-top: 70px;
+}
+/*glavnaya kartinka*/
+.top-slide {
+  background: url(im1/4.jpg) no-repeat;
+  padding-top: 120px;
+  padding-left: 50px;
+  padding-bottom: 400px;
+}
+.top-container{
+  width: 100%;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+.top-slide h2{
+  background: #FFFF00;
+  display: inline;
+  font-size: 70px;
+  padding: 0 15px;
+}
+.top-slide :nth-child(2){
+  margin-bottom: 40px;
+}
+.top-slide :nth-child(3){
+  margin-left: 120px;
+}
+.top-slide p{
+  background: #696969;
+  opacity:0.7;
+  display: inline;
+  font-size: 30px;
+  color: #FFFFFF;
+}
+/*konez*/
+/*kartinka preimushestva*/
+.gradient{
+ background: linear-gradient(#808080, #FFFF00);
+ margin: 30px 0px 30px 0px; 
+ padding: 50px;
+ padding-top: 40px;
+}
+.specialize-cards1{
+  width: 55%;
+  margin: 0 auto;
+  text-align: center;
+}
+.specialize-cards1 h3{
+font-size: 35px;
+  margin-top: 20px;
+}
+.specialize-cards1 p{
+ font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+.first-p1{
+  font-size: 20px;
+  color: #000000;
+}
+
+.specialize-cards1{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.scale{
+  transition: 1s;
+}
+.scale:hover{
+  transform: scale(1.2);
+}
+
+
+/**/
+/*Uslugi*/
+.specialize-container{
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+.specialize-container h3{
+  font-size: 35px;
+  margin-top: 20px;
+}
+.specialize-container p{
+  font-size: 24px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+} 
+.first-p{
+  font-size: 20px;
+  color: #000000;
+}
+.bottom-card{
+  background: #FFFF00;
+  position: relative;
+  top: -10px;
+}
+.specialize-cards{
+  display: flex;
+  justify-content: space-between;
+}
+.top-card img{
+  padding: 15px 15px;
+}
+.scale{
+  transition: 1s;
+}
+.scale:hover{
+  transform: scale(1.2);
+}
+
+footer{
+  background: #000000;
+  padding: 30px 0;
+  
+}
+footer h4{
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+.footer-container{
+  width: 90%;
+  margin: 0 auto;
+  color: #FFFFFF;
+  display: grid;
+  grid-template-columns: 40% 30% 20%;
+  grid-column-gap: 3%;
+}
+.tweets p{
+  margin-top: 20px;
+}
+.tweets a{
+  color: #FFFF00;
+  font-size: 30px;
+}
+/**/
+
+/*KONTAKTI*/
+.top-kontakt{
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+.top-kontakt h2{
+  font-size: 50px;
+  margin-top: 20px;
+}
+.top-kontakt h3{
+  font-size: 35px;
+  margin-top: 20px;
+}
+.top-kontakt p{
+  font-size: 24px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+} 
+.map{
+  display: block;
+  margin: auto;
+  width: 100%;
+  text-align: center;
+  overflow:hidden;
+    padding-bottom:30%;
+    position:relative;
+    height:0;
+}
+.map iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+.insta{
+text-align: center;
+padding-top: 15px;
+}
+.insta p{
+  font-size: 50px;
+}
+.insta a{
+ color:  #221C1C;
+}
+/**/
+
+/*CENU*/
+.zagolovok{
+  text-align: center;
+  padding-top: 20px;
+}
+.zagolovok h3{
+  font-size: 50px;
+}
+table.delivery {
+  width: 100%;
+   border: 0px;
+    border-collapse: collapse;
+  }
+table.delivery thead {
+  font-weight: bold;
+}
+table.delivery tbody {
+  background: #C0C0C0;
+
+}
+table.delivery td {
+  padding: 0.6rem 1rem; 
+  border-bottom: 1px solid #e8e9eb;
+}
+table.delivery th {
+ text-align: left;
+ padding: 0.6rem 1rem;
+ font-size: 20px;
+}
+/**/
+/*Avtomagaz*/
+.opis h2{
+  padding-top: 15px;
+  text-align: center;
+}
+.opis p{
+  text-indent: 20px;
+  text-align: center;
+  padding-top: 10px;
+}
+.ssilka a{
+  font-size: 50px;
+  color: #FF4500;
+  text-shadow: #808080 1px 1px 0, #808080 2px 2px 0, 
+                 #808080 3px 3px 0, #808080 4px 4px 0, 
+                 #808080 5px 5px 0;
+}
+.ssilka{
+  text-align: center;
+  padding-top: 15px;
+}
+.kart{
+  padding-top: 15px;
+
+}
+.blok{
+padding-bottom: 70px;
+padding-top: 30px;
+padding-left: 20px;
+
+}
+.tablica{
+  font-size: 120%;
+}
+.tablica td {
+  padding: 7px;
+}
+.ostatok p{
+text-align: center;
+font-size: 200%;
+
+}
+/**/
+@media screen and (max-width: 760px) {
+  .header-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+  .main-menu{
+    display: none;
+  }
+  .main-menu li{
+    width: 100%;
+    display: block;
+    font-size: 12px;
+  }
+  .main-menu a{
+    display: block;
+    padding: 8px;
+  }
+  .toggle-button{
+    text-align: center;
+    display: block;
+    cursor: pointer;
+    color: #FFFFFF;
+  }
+  .toggle-button:after{
+    content: attr(data-open);
+    display: block;
+  }
+  #menu-checkbox:checked + nav[role="navigation"] .main-menu{
+    display: block;
+  }
+  #menu-checkbox:checked + nav[role="navigation"] .toggle-button:after{
+    content: attr(data-close);
+  }
+  .header-container a{
+    margin-right: -65px;
+  }
+  .main-menu{
+    position: relative;
+    top: 15px;
+    right: 85px;
+  }
+  .top-slide {
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-bottom: 40px;
+}
+.top-slide h2 {
+    font-size: 37px;
+}
+.top-slide p {
+    font-size: 17px;
+}
+.specialize-cards{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.bottom-card{
+  width: 250px;
+  margin: 0 auto;
+}
+.specialize-cards1{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+}
+footer h4 {
+    font-size: 14px;
+    margin-bottom: 40px;
+}
+footer p{
+  font-size: 11px;
+}
+.tweets a {
+    font-size: 15px;
+}
+.top-kontakt h3 {
+    font-size: 25px;
+  }
+.top-kontakt h2 {
+    font-size: 30px;
+  }
+
+}
+/*menu off*/
+
+
+
+
+
+/*КНОПКА ЗВОНОК*/
+
+.callback-bt {
+        background:#00FF00;
+        border:2px solid #00FF00;
+        border-radius:50%;
+        box-shadow:0 8px 10px rgba(56,163,253,0.3);
+        cursor:pointer;
+        height:68px;
+        text-align:center;
+        width:68px;
+        position: fixed;
+        right: 6%;
+        bottom: 8%;
+        z-index:999;
+        transition:.3s;
+        -webkit-animation:hoverWave linear 1s infinite;
+        animation:hoverWave linear 1s infinite;
+}
+
+.callback-bt .text-call{
+        height:68px;
+        width:68px;        
+        border-radius:50%;
+        position:relative;
+        overflow:hidden;
+}
+
+.callback-bt .text-call span {
+    text-align: center;
+    color:#00FF00;
+    opacity: 0;
+    font-size: 0;
+        position:absolute;
+        right: 4px;
+        top: 22px;
+    line-height: 14px;
+        font-weight: 600;
+    text-transform: uppercase;
+    transition: opacity .3s linear;
+    font-family: 'montserrat', Arial, Helvetica, sans-serif;
+}
+
+.callback-bt .text-call:hover span {
+    opacity: 1;
+        font-size: 11px;
+}
+.callback-bt:hover i {
+    display:none;
+}
+
+.callback-bt:hover {
+        z-index:1;
+        background:#fff;
+        color:transparent;
+        transition:.3s;
+}
+.callback-bt:hover i {
+        color:#00FF00;
+        font-size:40px;
+        transition:.3s;
+}
+.callback-bt i {
+        color:#fff;
+        font-size:34px;
+        transition:.3s;
+        line-height: 66px;transition: .5s ease-in-out;
+}
+
+.callback-bt i  {
+    animation: 1200ms ease 0s normal none 1 running shake;
+        animation-iteration-count: infinite;
+        -webkit-animation: 1200ms ease 0s normal none 1 running shake;
+        -webkit-animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes hoverWave {
+        0% {
+        box-shadow:0 8px 10px rgba(56,163,253,0.3),0 0 0 0 rgba(56,163,253,0.2),0 0 0 0 rgba(56,163,253,0.2)
+}
+40% {
+        box-shadow:0 8px 10px rgba(56,163,253,0.3),0 0 0 15px rgba(56,163,253,0.2),0 0 0 0 rgba(56,163,253,0.2)
+}
+80% {
+        box-shadow:0 8px 10px rgba(56,163,253,0.3),0 0 0 30px rgba(56,163,253,0),0 0 0 26.7px rgba(56,163,253,0.067)
+}
+100% {
+        box-shadow:0 8px 10px rgba(56,163,253,0.3),0 0 0 30px rgba(56,163,253,0),0 0 0 40px rgba(56,163,253,0.0)
+}
+}@keyframes hoverWave {
+        0% {
+        box-shadow:0 8px 10px rgba(56,163,253,0.3),0 0 0 0 rgba(56,163,253,0.2),0 0 0 0 rgba(56,163,253,0.2)
+}
+40% {
+        box-shadow:0 8px 10px rgba(56,163,253,0.3),0 0 0 15px rgba(56,163,253,0.2),0 0 0 0 rgba(56,163,253,0.2)
+}
+80% {
+        box-shadow:0 8px 10px rgba(56,163,253,0.3),0 0 0 30px rgba(56,163,253,0),0 0 0 26.7px rgba(56,163,253,0.067)
+}
+100% {
+        box-shadow:0 8px 10px rgba(56,163,253,0.3),0 0 0 30px rgba(56,163,253,0),0 0 0 40px rgba(56,163,253,0.0)
+}
+}
+
+/* animations icon */
+
+@keyframes shake {
+0% {
+    transform: rotateZ(0deg);
+        -ms-transform: rotateZ(0deg);
+        -webkit-transform: rotateZ(0deg);
+}
+10% {
+    transform: rotateZ(-30deg);
+        -ms-transform: rotateZ(-30deg);
+        -webkit-transform: rotateZ(-30deg);
+}
+20% {
+    transform: rotateZ(15deg);
+        -ms-transform: rotateZ(15deg);
+        -webkit-transform: rotateZ(15deg);
+}
+30% {
+    transform: rotateZ(-10deg);
+        -ms-transform: rotateZ(-10deg);
+        -webkit-transform: rotateZ(-10deg);
+}
+40% {
+    transform: rotateZ(7.5deg);
+        -ms-transform: rotateZ(7.5deg);
+        -webkit-transform: rotateZ(7.5deg);
+}
+50% {
+    transform: rotateZ(-6deg);
+        -ms-transform: rotateZ(-6deg);
+        -webkit-transform: rotateZ(-6deg);
+}
+60% {
+    transform: rotateZ(5deg);
+        -ms-transform: rotateZ(5deg);
+        -webkit-transform: rotateZ(5deg);
+}
+70% {
+    transform: rotateZ(-4.28571deg);
+        -ms-transform: rotateZ(-4.28571deg);
+        -webkit-transform: rotateZ(-4.28571deg);
+}
+80% {
+    transform: rotateZ(3.75deg);
+        -ms-transform: rotateZ(3.75deg);
+        -webkit-transform: rotateZ(3.75deg);
+}
+90% {
+    transform: rotateZ(-3.33333deg);
+        -ms-transform: rotateZ(-3.33333deg);
+        -webkit-transform: rotateZ(-3.33333deg);
+}
+100% {
+    transform: rotateZ(0deg);
+        -ms-transform: rotateZ(0deg);
+        -webkit-transform: rotateZ(0deg);
+}
+}
+
+@-webkit-keyframes shake {
+0% {
+    transform: rotateZ(0deg);
+        -ms-transform: rotateZ(0deg);
+        -webkit-transform: rotateZ(0deg);
+}
+10% {
+    transform: rotateZ(-30deg);
+        -ms-transform: rotateZ(-30deg);
+        -webkit-transform: rotateZ(-30deg);
+}
+20% {
+    transform: rotateZ(15deg);
+        -ms-transform: rotateZ(15deg);
+        -webkit-transform: rotateZ(15deg);
+}
+30% {
+    transform: rotateZ(-10deg);
+        -ms-transform: rotateZ(-10deg);
+        -webkit-transform: rotateZ(-10deg);
+}
+40% {
+    transform: rotateZ(7.5deg);
+        -ms-transform: rotateZ(7.5deg);
+        -webkit-transform: rotateZ(7.5deg);
+}
+50% {
+    transform: rotateZ(-6deg);
+        -ms-transform: rotateZ(-6deg);
+        -webkit-transform: rotateZ(-6deg);
+}
+60% {
+    transform: rotateZ(5deg);
+        -ms-transform: rotateZ(5deg);
+        -webkit-transform: rotateZ(5deg);
+}
+70% {
+    transform: rotateZ(-4.28571deg);
+        -ms-transform: rotateZ(-4.28571deg);
+        -webkit-transform: rotateZ(-4.28571deg);
+}
+80% {
+    transform: rotateZ(3.75deg);
+        -ms-transform: rotateZ(3.75deg);
+        -webkit-transform: rotateZ(3.75deg);
+}
+90% {
+    transform: rotateZ(-3.33333deg);
+        -ms-transform: rotateZ(-3.33333deg);
+        -webkit-transform: rotateZ(-3.33333deg);
+}
+100% {
+    transform: rotateZ(0deg);
+        -ms-transform: rotateZ(0deg);
+        -webkit-transform: rotateZ(0deg);
+}
+}
+/* конец кнопки звонка */
+
+/*КНОПКА ПИСЬМО*/
+.email-bt {
+        background:#00FF00;
+        border:2px solid #00FF00;
+        border-radius:50%;
+        box-shadow:0 8px 10px rgba(249,92,24,0.3);
+        cursor:pointer;
+        height:68px;
+        text-align:center;
+        width:68px;
+        position: fixed;
+        left: 6%;
+        bottom: 10%;
+        z-index:999;
+        transition:.3s;
+        -webkit-animation:email-an linear 1s infinite;
+        animation:email-an linear 1s infinite;
+}
+
+.email-bt .text-call{
+        height:68px;
+        width:68px;        
+        border-radius:50%;
+        position:relative;
+        overflow:hidden;
+}
+
+.email-bt .text-call span {
+    text-align: center;
+    color:#00FF00;
+    opacity: 0;
+    font-size: 0;
+        position:absolute;
+        right: 9px;
+        top: 22px;
+    line-height: 14px;
+        font-weight: 600;
+    text-transform: uppercase;
+    transition: opacity .3s linear;
+    font-family: 'montserrat', Arial, Helvetica, sans-serif;
+}
+
+.email-bt .text-call:hover span {
+    opacity: 1;
+        font-size: 11px;
+}
+.email-bt:hover i {
+    display:none;
+}
+
+.email-bt:hover {
+        z-index:1;
+        background:#fff;
+        transition:.3s;
+}
+.email-bt:hover i {
+        color:#00FF00;
+        font-size:40px;
+        transition:.3s;
+}
+.email-bt i {
+        color:#fff;
+        font-size:29px;
+        transition:.3s;
+        line-height: 66px;
+}
+
+.email-bt i  {
+        -webkit-animation: opsimple 3s infinite;
+        animation: opsimple 3s infinite;
+}
+
+@-webkit-keyframes email-an {
+        0% {
+        box-shadow:0 8px 10px rgba(249,92,24,0.3),0 0 0 0 rgba(249,92,24,0.2),0 0 0 0 rgba(249,92,24,0.2)
+}
+40% {
+        box-shadow:0 8px 10px rgba(249,92,24,0.3),0 0 0 15px rgba(249,92,24,0.2),0 0 0 0 rgba(249,92,24,0.2)
+}
+80% {
+        box-shadow:0 8px 10px rgba(249,92,24,0.3),0 0 0 30px rgba(249,92,24,0),0 0 0 26.7px rgba(249,92,24,0.067)
+}
+100% {
+        box-shadow:0 8px 10px rgba(249,92,24,0.3),0 0 0 30px rgba(249,92,24,0),0 0 0 40px rgba(249,92,24,0.0)
+}
+}@keyframes email-an {
+        0% {
+        box-shadow:0 8px 10px rgba(249,92,24,0.3),0 0 0 0 rgba(249,92,24,0.2),0 0 0 0 rgba(249,92,24,0.2)
+}
+40% {
+        box-shadow:0 8px 10px rgba(249,92,24,0.3),0 0 0 15px rgba(249,92,24,0.2),0 0 0 0 rgba(249,92,24,0.2)
+}
+80% {
+        box-shadow:0 8px 10px rgba(249,92,24,0.3),0 0 0 30px rgba(249,92,24,0),0 0 0 26.7px rgba(249,92,24,0.067)
+}
+100% {
+        box-shadow:0 8px 10px rgba(249,92,24,0.3),0 0 0 30px rgba(249,92,24,0),0 0 0 40px rgba(249,92,24,0.0)
+}
+}
+
+@keyframes opsimple {
+0% {
+    opacity: 0;
+}
+40% {
+    opacity: 1;
+}
+
+80% {
+    opacity: 1;
+}
+100% {
+    opacity: 0;
+}
+}
+
+@-webkit-keyframes opsimple {
+0% {
+    opacity: 0;
+}
+40% {
+    opacity: 1;
+}
+80% {
+    opacity: 1;
+}
+100% {
+    opacity: 0;
+}
+}
+/* конец кнопки письмо */
+
